@@ -1846,3 +1846,52 @@ body{
 #footer .hover:hover .p4{
     top: 40px;
 }
+/*footer massage*/
+#footerMassage{
+    width: 840px;
+    height: auto;
+    position: relative;
+    bottom:10px;
+    left:50%;
+    margin-left: -420px;
+    font-size:12px;
+    text-align: center;
+    color: #070707;
+    line-height: 24px;
+    margin-top:20px;
+}
+#footerMassage .share{
+    margin-bottom:8px;
+}
+#footerMassage .share a{
+    margin: 0 5px;
+    color:#000;
+}
+#footerMassage .share a:hover,#footerMassage .share a:hover span{
+    color: #ff2320;
+}
+#footerMassage .neteasePic a{
+    display: inline-block;
+}
+#footerMassage .company p:first-child{
+    color: #ff3126;
+}
+#footerMassage .company p:first-child a{
+    color:#ff3126;
+}
+#footerMassage .company p:last-child span{
+    display:inline-block;
+    height: 24px;
+    background: #76000d;
+}
+#footerMassage .company p:last-child span a{
+    color:#fff;
+}
+#footerMassage .friendlytip p:last-child a{
+    color: #00f;
+}
+#footerMassage .iconfont{/*可以给图标修改样式*/
+    color: #444;
+    font-size:23px;
+    vertical-align:top;
+}

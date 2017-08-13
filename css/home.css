@@ -13,8 +13,9 @@ body.noScroll{/*点击视频弹窗时取消滚动条*/
 }
 #bg .bg{
     width: 100%;
-    background-position:top center;
-    background-repeat:no-repeat;
+    /*background-position:top center;
+    background-repeat:no-repeat;*/
+    background: no-repeat top center;
 }
 #bg .bg1{
     height: 1026px;
@@ -534,3 +535,52 @@ body.noScroll{/*点击视频弹窗时取消滚动条*/
     right: 0;
     background-image: url(../img/game/right.png);
 }
+/*footer massage*/
+#footer{
+    width: 840px;
+    height: auto;
+    position: relative;
+    bottom:16px;
+    left:50%;
+    margin-left: -420px;
+    font-size:12px;
+    text-align: center;
+    color: #bfbfbf;
+    line-height: 24px;
+}
+#footer .share{
+    margin-bottom:8px;
+}
+#footer .share a{
+    margin: 0 5px;
+    color:#fff;
+}
+#footer .share a:hover,#footer .share a:hover span{
+    color: #009108;
+}
+#footer .neteasePic a{
+    display: inline-block;
+}
+#footer .company p:first-child{
+    color: #ff3126;
+}
+#footer .company p:first-child a{
+    color:#ff3126;
+}
+#footer .company p:last-child span{
+    display:inline-block;
+    height: 24px;
+    background: #76000d;
+}
+#footer .company p:last-child span a{
+   color:#fff;
+}
+#footer .friendlytip p:last-child a{
+    color: #027a1c;
+}
+#footer .iconfont{/*可以给图标修改样式*/
+    color:#fff;
+    font-size:23px;
+    vertical-align:top;
+}
+
